@@ -1,0 +1,10 @@
+data/raw/
+data/processed/
+data/pois/
+venv/
+__pycache__/
+*.tif
+*.tiff
+*.geojson
+*.csv
+*.zip
