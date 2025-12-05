@@ -2,7 +2,7 @@ import os
 import osmnx as ox
 import geopandas as gpd
 
-print("⏳ Fetching POIs from OpenStreetMap for Bengaluru…")
+print("Fetching POIs from OpenStreetMap for Bengaluru…")
 
 boundary = ox.geocode_to_gdf("Bengaluru, India")
 polygon = boundary.geometry.iloc[0]
